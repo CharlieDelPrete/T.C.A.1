@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title class="t1">Color Flipper</title>
+    <style>
+        #green {
+            background-color: rgb(200, 5, 218);
+        }
+
+        #red {
+            background-color: rgb(0, 57, 243);
+        }
+
+        #blue {
+            background-color: rgb(253, 2, 2);
+        }
+
+        button {
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="headin">Color Flipper</h3>
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button onclick="randomColor()">Random</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
